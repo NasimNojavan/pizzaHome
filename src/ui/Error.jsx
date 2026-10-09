@@ -6,7 +6,7 @@ function Error() {
   console.log(error);
 
   return (
-    <div>
+    <div className="p-6">
       <h1>Something went wrong 😢</h1>
       <p>{error.data || error.message}</p>
       <LinkButton to={"-1"}>&larr; Go back</LinkButton>
